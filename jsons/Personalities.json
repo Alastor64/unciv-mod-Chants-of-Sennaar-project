@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Warriors",
+
+		"production": 8,
+		"food": 6,
+		"gold": 5,
+		"science": 7,
+		"culture": 9,
+		"happiness": 5,
+		"faith": 1,
+
+		"military": 7,
+		"aggressive": 10,
+		"declareWar": 3,
+		"commerce": 5,
+		"diplomacy": 6,
+		"loyal": 6,
+		"expansion": 7,
+		"denounceWillingness": 3,
+
+		"priorities": {
+			"Tradition": 5,
+			"Liberty": 5,
+			"Honor": 10,
+			"Piety": 5,
+			"Patronage": 6,
+			"Commerce": 6,
+			"Rationalism": 7,
+			"Freedom": 0,
+			"Order": 10,
+			"Autocracy": 0
+		},
+
+		"preferredVictoryType": "Cultural"
+	}
+]

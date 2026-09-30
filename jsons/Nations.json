@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Warriors",
+		"leaderName": "God",
+		"personality": "Warriors",
+		"uniques": ["\"Borrows\" city names from other civilizations in the game"],
+
+		"outerColor": [0,0,255],
+		"innerColor": [255,0,0],
+		"cities": ["Duty","Bell Fortress"]
+	}
+]

@@ -8,7 +8,9 @@
 		"uniques": [
 			"\"Borrows\" city names from other civilizations in the game",
 
-			// Military buildings - a building's own unique buildings count as well ("Walls of Babylon" counts as "Walls")
+			// Military buildings - a building's own unique buildings count as well ("Walls of Babylon" counts as "Walls").
+			// Unciv checks production bonuses against three separate uniques (units / wonders / regular
+			// buildings) depending on what is being constructed, so wonders need the "wonders" wording.
 			"[100]% Production when constructing [Barracks] buildings [in all cities]",
 			"[100]% Production when constructing [Walls] buildings [in all cities]",
 			"[100]% Production when constructing [Courthouse] buildings [in all cities]",
@@ -18,16 +20,16 @@
 			"[100]% Production when constructing [Military Academy] buildings [in all cities]",
 			"[100]% Production when constructing [Military Base] buildings [in all cities]",
 			"[100]% Production when constructing [Bomb Shelter] buildings [in all cities]",
-			"[100]% Production when constructing [Temple of Artemis] buildings [in all cities]",
-			"[100]% Production when constructing [Statue of Zeus] buildings [in all cities]",
-			"[100]% Production when constructing [Great Wall] buildings [in all cities]",
-			"[100]% Production when constructing [Heroic Epic] buildings [in all cities]",
-			"[100]% Production when constructing [Alhambra] buildings [in all cities]",
-			"[100]% Production when constructing [Himeji Castle] buildings [in all cities]",
-			"[100]% Production when constructing [Kremlin] buildings [in all cities]",
-			"[100]% Production when constructing [Brandenburg Gate] buildings [in all cities]",
-			"[100]% Production when constructing [Neuschwanstein] buildings [in all cities]",
-			"[100]% Production when constructing [Pentagon] buildings [in all cities]",
+			"[100]% Production when constructing [Temple of Artemis] wonders [in all cities]",
+			"[100]% Production when constructing [Statue of Zeus] wonders [in all cities]",
+			"[100]% Production when constructing [Great Wall] wonders [in all cities]",
+			"[100]% Production when constructing [Heroic Epic] wonders [in all cities]",
+			"[100]% Production when constructing [Alhambra] wonders [in all cities]",
+			"[100]% Production when constructing [Himeji Castle] wonders [in all cities]",
+			"[100]% Production when constructing [Kremlin] wonders [in all cities]",
+			"[100]% Production when constructing [Brandenburg Gate] wonders [in all cities]",
+			"[100]% Production when constructing [Neuschwanstein] wonders [in all cities]",
+			"[100]% Production when constructing [Pentagon] wonders [in all cities]",
 
 			// Supply is doubled. The game has no supply multiplier, so the three parts of
 			// "base + per city + per population" are each doubled separately, and the base and

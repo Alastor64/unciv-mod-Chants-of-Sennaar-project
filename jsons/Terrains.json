@@ -1,0 +1,21 @@
+[
+	// Mountains cost 2 movement instead of the default 1, so the Sapper (3 movement) can only
+	// cross one Mountain per turn, exactly like other rough terrain.
+	// This is a copy of the base ruleset's Mountain - keep it in sync when updating.
+	// Vanilla's only other unit that can enter Mountains is the Helicopter Gunship, which has
+	// "All tiles cost 1 movement", so it is not affected by this.
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"movementCost": 2,
+		"defenceBonus": 0.25,
+		"RGB": [102, 102, 102],
+		"uniques": ["Rough terrain",
+            "Has an elevation of [2] for visibility calculations",
+            "Occurs in chains at high elevations",
+            "Units ending their turn on this terrain take [50] damage",
+            "Always Fertility [-2] for Map Generation",
+            "Considered [Undesirable] when determining start locations"]
+	}
+]

@@ -6,7 +6,7 @@ An Unciv mod adding civilizations from the game *Chants of Sennaar*.
 
 | Civilization | Leader | Unique name | Unique |
 |---|---|---|---|
-| Warriors | God | Protectors of Heaven | Supply is doubled; +100% Production when constructing military buildings in all cities; "Borrows" city names from other civilizations in the game |
+| Warriors | God | Protectors of Heaven | Supply is doubled; +100% Production when constructing military buildings and wonders in all cities; "Borrows" city names from other civilizations in the game |
 
 The Warriors start with a bias towards Mountains and have a unique building, unit and tile improvement:
 

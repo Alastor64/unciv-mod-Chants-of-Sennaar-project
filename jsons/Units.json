@@ -11,11 +11,10 @@
 			"Can build [Land] improvements on tiles",
 			"Can pass through impassable tiles",
 			// Mountains deal 50 damage per turn to units standing on them, which would kill a worker
-			// before it can finish the Stargazing Platform. The Sapper heals to full twice each turn it
-			// ends on a Mountain - once before that damage is dealt (so the damage can never kill it,
-			// and it no longer matters whether it moved that turn) and once after.
-			"Unit will heal every turn, even if it performs an action",
-			"[+100] HP when healing <in [Mountain] tiles>",
+			// before it can finish the Stargazing Platform. Both heals below only apply on Mountains:
+			// the "upon turn end" one runs before the terrain damage (so the damage can never kill it,
+			// no matter whether it moved that turn), the other runs after it.
+			"[This Unit] heals [100] HP <upon turn end> <in [Mountain] tiles>",
 			"[This Unit] heals [100] HP <upon ending a turn in a [Mountain] tile>",
 			"Automation is a primary action"
 		]

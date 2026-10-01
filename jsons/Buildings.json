@@ -3,7 +3,7 @@
 		"name": "Fortress",
 		"replaces": "Walls",
 		"uniqueTo": "Warriors",
-		"cost": 150,
+		"cost": 100,
 		"cityStrength": 8,
 		"cityHealth": 75,
 		"hurryCostModifier": 25,

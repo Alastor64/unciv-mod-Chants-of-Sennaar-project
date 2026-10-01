@@ -10,4 +10,6 @@ until dedicated artwork is drawn:
 
 - `Images/BuildingIcons/Fortress.png` — Unciv's "Walls" icon
 - `Images/UnitIcons/Sapper.png` — Unciv's "Worker" icon
+- `Images/UnitIcons/Officer.png` — Unciv's "Great General" icon
+- `Images/UnitIcons/Chosen One.png` — Unciv's "Great Artist" icon
 - `Images/ImprovementIcons/Stargazing Platform.png` — Unciv's "Observatory" icon

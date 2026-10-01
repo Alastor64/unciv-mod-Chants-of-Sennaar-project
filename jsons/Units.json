@@ -18,5 +18,36 @@
 			"[This Unit] heals [100] HP <upon ending a turn in a [Mountain] tile>",
 			"Automation is a primary action"
 		]
+	},
+	{
+		"name": "Officer",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Warriors",
+		"movement": 2,
+		"uniques": [
+			// Replaces the Great General's "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles"
+			"[+30]% Strength bonus for [Military] units within [2] tiles <when attacking>",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+			"Is part of Great Person group [General]",
+			"[This Unit] gets a name from the [General] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"
+		]
+	},
+	{
+		"name": "Chosen One",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniqueTo": "Warriors",
+		"movement": 2,
+		"uniques": [
+			// Replaces the Great Artist's "Empire enters a [8]-turn Golden Age <by consuming this unit>"
+			"[+50]% Strength bonus for [Military] units within [2] tiles <when defending>",
+			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
+			"Is part of Great Person group [Great Person]",
+			"[This Unit] gets a name from the [Artist] group",
+			"Great Person - [Culture]", "Unbuildable", "Uncapturable"
+		]
 	}
 ]

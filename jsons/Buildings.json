@@ -15,5 +15,18 @@
 			"Destroyed when the city is captured",
 			"[100]% Production when constructing [Military] units [in this city]"
 		]
+	},
+	{
+		"name": "Day of the Chosen",
+		"replaces": "National Epic",
+		"uniqueTo": "Warriors",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
+			"[+25]% Great Person generation [in this city]",
+			"Cost increases by [30] per owned city",
+			"Free [Great Artist] appears"],
+		"requiredTech": "Drama and Poetry"
 	}
 ]

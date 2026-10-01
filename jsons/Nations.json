@@ -4,16 +4,17 @@
 		"leaderName": "God",
 		"personality": "Warriors",
 		"uniqueName": "Protectors of Heaven",
-		"uniqueText": "Supply is doubled. +100% Production when constructing military buildings and wonders in all cities. \"Borrows\" city names from other civilizations in the game.",
+		"uniqueText": "Supply is doubled.\n+100% Production when constructing military buildings and wonders in all cities.\nMilitary units get +20% Strength when defending in friendly territory.\nMilitary units heal an extra 10 HP in friendly territory.\n\"Borrows\" city names from other civilizations in the game.",
 		"uniques": [
 			"\"Borrows\" city names from other civilizations in the game",
+			"[+20]% Strength <for [Military] units> <when defending> <in [Friendly Land] tiles>",
+			"[+10] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
 
 			// Military buildings - a building's own unique buildings count as well ("Walls of Babylon" counts as "Walls").
 			// Unciv checks production bonuses against three separate uniques (units / wonders / regular
 			// buildings) depending on what is being constructed, so wonders need the "wonders" wording.
 			"[100]% Production when constructing [Barracks] buildings [in all cities]",
 			"[100]% Production when constructing [Walls] buildings [in all cities]",
-			"[100]% Production when constructing [Courthouse] buildings [in all cities]",
 			"[100]% Production when constructing [Castle] buildings [in all cities]",
 			"[100]% Production when constructing [Armory] buildings [in all cities]",
 			"[100]% Production when constructing [Arsenal] buildings [in all cities]",

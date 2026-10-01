@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Sapper",
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Warriors",
+		"movement": 3,
+		"requiredTech": "Agriculture",
+		"cost": 70,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Can pass through impassable tiles",
+			// Mountains deal 50 damage per turn to units standing on them, which would kill a worker
+			// before it can finish the Stargazing Platform. Healing happens before that damage is dealt,
+			// so a large mountain-only healing bonus makes the two cancel out.
+			"[+50] HP when healing <in [Mountain] tiles>",
+			"Automation is a primary action"
+		]
+	}
+]

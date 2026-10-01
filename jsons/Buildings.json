@@ -1,0 +1,19 @@
+[
+	{
+		"name": "Fortress",
+		"replaces": "Walls",
+		"uniqueTo": "Warriors",
+		"cost": 150,
+		"cityStrength": 8,
+		"cityHealth": 75,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"production": 2,
+		"food": 2,
+		"happiness": 2,
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[100]% Production when constructing [Military] units [in this city]"
+		]
+	}
+]

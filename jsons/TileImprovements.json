@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Stargazing Platform",
+		"uniqueTo": "Warriors",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"techRequired": "Masonry",
+		"turnsToBuild": 5,
+		"science": 4,
+		"uniques": [
+			"[+1 Science] <after discovering [Writing]>",
+			"[+2 Science] <after discovering [Optics]>",
+			"[+5 Science] <after discovering [Astronomy]>",
+			"[+1 Culture] <after discovering [Construction]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	}
+]

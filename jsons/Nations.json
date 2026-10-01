@@ -3,7 +3,47 @@
 		"name": "Warriors",
 		"leaderName": "God",
 		"personality": "Warriors",
-		"uniques": ["\"Borrows\" city names from other civilizations in the game"],
+		"uniqueName": "Protectors of Heaven",
+		"uniqueText": "Supply is doubled. +100% Production when constructing military buildings in all cities. \"Borrows\" city names from other civilizations in the game.",
+		"uniques": [
+			"\"Borrows\" city names from other civilizations in the game",
+
+			// Military buildings - a building's own unique buildings count as well ("Walls of Babylon" counts as "Walls")
+			"[100]% Production when constructing [Barracks] buildings [in all cities]",
+			"[100]% Production when constructing [Walls] buildings [in all cities]",
+			"[100]% Production when constructing [Courthouse] buildings [in all cities]",
+			"[100]% Production when constructing [Castle] buildings [in all cities]",
+			"[100]% Production when constructing [Armory] buildings [in all cities]",
+			"[100]% Production when constructing [Arsenal] buildings [in all cities]",
+			"[100]% Production when constructing [Military Academy] buildings [in all cities]",
+			"[100]% Production when constructing [Military Base] buildings [in all cities]",
+			"[100]% Production when constructing [Bomb Shelter] buildings [in all cities]",
+			"[100]% Production when constructing [Temple of Artemis] buildings [in all cities]",
+			"[100]% Production when constructing [Statue of Zeus] buildings [in all cities]",
+			"[100]% Production when constructing [Great Wall] buildings [in all cities]",
+			"[100]% Production when constructing [Heroic Epic] buildings [in all cities]",
+			"[100]% Production when constructing [Alhambra] buildings [in all cities]",
+			"[100]% Production when constructing [Himeji Castle] buildings [in all cities]",
+			"[100]% Production when constructing [Kremlin] buildings [in all cities]",
+			"[100]% Production when constructing [Brandenburg Gate] buildings [in all cities]",
+			"[100]% Production when constructing [Neuschwanstein] buildings [in all cities]",
+			"[100]% Production when constructing [Pentagon] buildings [in all cities]",
+
+			// Supply is doubled. The game has no supply multiplier, so the three parts of
+			// "base + per city + per population" are each doubled separately, and the base and
+			// per-city values depend on the difficulty (see Difficulties.json), hence one pair per difficulty.
+			// These uniques are technical details and are hidden from the player.
+			"[10] Unit Supply <hidden from users> <on [Settler] difficulty>",
+			"[3] Unit Supply per city <hidden from users> <on [Settler] difficulty>",
+			"[7] Unit Supply <hidden from users> <on [Chieftain] difficulty>",
+			"[3] Unit Supply per city <hidden from users> <on [Chieftain] difficulty>",
+			"[7] Unit Supply <hidden from users> <on [Warlord] difficulty>",
+			"[2] Unit Supply per city <hidden from users> <on [Warlord] difficulty>",
+			"[5] Unit Supply <hidden from users> <on [Prince] difficulty or higher>",
+			"[2] Unit Supply per city <hidden from users> <on [Prince] difficulty or higher>",
+			"[1] Unit Supply per [2] population [in all cities] <hidden from users>"
+		],
+		"startBias": ["Mountain"],
 
 		"outerColor": [0,0,255],
 		"innerColor": [255,0,0],

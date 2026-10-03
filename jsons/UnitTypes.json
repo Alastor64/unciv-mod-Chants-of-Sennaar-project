@@ -1,0 +1,141 @@
+[
+	// Military unit types give their units a 50% production cost reduction in cities with a Fortress.
+	// The cost of a unit is only read from the unit (and its unit type) itself, so this is the only way
+	// to express "military units cost 50% less in this city" without duplicating every military unit.
+	// The conditional makes it Warriors-only, since only they can build a Fortress.
+	// The entries below mirror the base ruleset's own unit types, plus the reduction.
+	{
+		"name": "Sword",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Gunpowder",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Archery",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Ranged Gunpowder",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Scout",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Mounted",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Armored",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Siege",
+		"movementType": "Land",
+		"civilopediaText": [
+			{ "text": "Siege units are extremely powerful against cities, but need to be Set Up before they can attack.\nOnce your siege unit is set up, it can attack from the current tile,\n  but once moved to another tile, it will need to be set up again." }
+		],
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Melee Water",
+		"movementType": "Water",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Ranged Water",
+		"movementType": "Water",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Submarine",
+		"movementType": "Water",
+		"uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units",
+			"[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Aircraft Carrier",
+		"movementType": "Water",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Fighter",
+		"movementType": "Air",
+		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep",
+			"[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Bomber",
+		"movementType": "Air",
+		"uniques": ["Aircraft", "[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Atomic Bomber",
+		"movementType": "Air",
+		"uniques": ["Aircraft", "[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Missile",
+		"movementType": "Air",
+		"uniques": ["Self-destructs when attacking", "Cannot be intercepted",
+			"[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Helicopter",
+		"movementType": "Land",
+		"uniques": ["Can pass through impassable tiles", "[-50]% production cost <in cities with a [Fortress]>"]
+	},
+
+	// Deprecated unit type names, kept so that units from other mods using them also get the reduction
+
+	{
+		"name": "Melee",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Ranged",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "Armor",
+		"movementType": "Land",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "WaterMelee",
+		"movementType": "Water",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "WaterRanged",
+		"movementType": "Water",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "WaterSubmarine",
+		"movementType": "Water",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "WaterAircraftCarrier",
+		"movementType": "Water",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	},
+	{
+		"name": "AtomicBomber",
+		"movementType": "Air",
+		"uniques": ["[-50]% production cost <in cities with a [Fortress]>"]
+	}
+]

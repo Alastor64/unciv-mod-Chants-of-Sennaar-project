@@ -9,6 +9,9 @@ The following images are taken from Unciv's own icons and are used as temporary 
 until dedicated artwork is drawn:
 
 - `Images/BuildingIcons/Fortress.png` — Unciv's "Walls" icon
+- `Images/BuildingIcons/Wine Cellar.png` — Unciv's "Shrine" icon
+- `Images/BuildingIcons/Day of the Chosen.png` — Unciv's "National Epic" icon
+- `Images/BuildingIcons/Oath Stele.png` — Unciv's "Heroic Epic" icon
 - `Images/UnitIcons/Sapper.png` — Unciv's "Worker" icon
 - `Images/UnitIcons/Officer.png` — Unciv's "Great General" icon
 - `Images/UnitIcons/Chosen One.png` — Unciv's "Great Artist" icon

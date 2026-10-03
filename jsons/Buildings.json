@@ -9,11 +9,27 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"production": 2,
-		"food": 2,
-		"happiness": 2,
+		"faith": 2,
 		"uniques": [
-			"Destroyed when the city is captured",
-			"[100]% Production when constructing [Military] units [in this city]"
+			// Military units cost 50% less production in cities with a Fortress - the cost reduction
+			// itself lives on the military unit types, see UnitTypes.json.
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Wine Cellar",
+		"replaces": "Shrine",
+		"uniqueTo": "Warriors",
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"food": 1,
+		"happiness": 1,
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"[+2 Food] from [Wine] tiles [in this city]",
+			"[+1 Food] from [Citrus] tiles [in this city]",
+			"[+3 Food] from [Sugar] tiles [in this city]"
 		]
 	},
 	{
@@ -22,11 +38,27 @@
 		"uniqueTo": "Warriors",
 		"cost": 125,
 		"culture": 1,
+		"happiness": 5,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
 			"[+25]% Great Person generation [in this city]",
 			"Cost increases by [30] per owned city",
 			"Free [Great Artist] appears"],
 		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Oath Stele",
+		"replaces": "Heroic Epic",
+		"uniqueTo": "Warriors",
+		"cost": 125,
+		"culture": 1,
+		"faith": 3,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
+			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city",
+			"Free [Great General] appears",
+			"[+1] Movement <in [Friendly Land] tiles>"],
+		"requiredTech": "Iron Working"
 	}
 ]

@@ -4,65 +4,65 @@ size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Day of the Chosen
-  rotate: false
-  xy: 112, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Fortress
   rotate: false
-  xy: 220, 4
+  xy: 645, 17
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Arrival of the Chosen
+  rotate: false
+  xy: 744, 18
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Duty of a Warrior
+  rotate: false
+  xy: 224, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Oath Stele
+BuildingIcons/Wine and Spirits Cellar
   rotate: false
-  xy: 328, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Wine Cellar
-  rotate: false
-  xy: 868, 4
-  size: 100, 100
-  orig: 100, 100
+  xy: 842, 24
+  size: 84, 84
+  orig: 84, 84
   offset: 0, 0
   index: -1
 ImprovementIcons/Stargazing Platform
   rotate: false
-  xy: 652, 4
-  size: 100, 100
-  orig: 100, 100
+  xy: 543, 14
+  size: 94, 94
+  orig: 94, 94
   offset: 0, 0
   index: -1
 NationIcons/Warriors
   rotate: false
-  xy: 760, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Chosen One
-  rotate: false
-  xy: 4, 4
+  xy: 332, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Officer
   rotate: false
-  xy: 436, 10
-  size: 100, 94
-  orig: 100, 94
+  xy: 440, 13
+  size: 95, 95
+  orig: 95, 95
   offset: 0, 0
   index: -1
 UnitIcons/Sapper
   rotate: false
-  xy: 544, 4
+  xy: 4, 4
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+UnitIcons/The Chosen
+  rotate: false
+  xy: 116, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

@@ -6,63 +6,63 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Fortress
   rotate: false
-  xy: 646, 16
-  size: 92, 92
-  orig: 92, 92
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Arrival of the Chosen
   rotate: false
-  xy: 746, 18
-  size: 90, 90
-  orig: 90, 90
+  xy: 436, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Duty of a Warrior
   rotate: false
-  xy: 224, 8
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Wine and Spirits Cellar
   rotate: false
-  xy: 844, 24
-  size: 84, 84
-  orig: 84, 84
+  xy: 868, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Stargazing Platform
   rotate: false
-  xy: 543, 13
-  size: 95, 95
-  orig: 95, 95
+  xy: 328, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Warriors
   rotate: false
-  xy: 332, 8
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Officer
   rotate: false
-  xy: 440, 13
-  size: 95, 95
-  orig: 95, 95
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sapper
   rotate: false
-  xy: 4, 4
-  size: 104, 104
-  orig: 104, 104
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/The Chosen
   rotate: false
-  xy: 116, 8
+  xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

@@ -10,27 +10,38 @@
 			"[+20]% Strength <for [Military] units> <when defending> <in [Friendly Land] tiles>",
 			"[+10] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
 
-			// Military buildings - a building's own unique buildings count as well ("Walls of Babylon" counts as "Walls").
+			// Military buildings and wonders - the set is the one the design's overview defines
+			// (design/文明/战士.md, "备注"). A building's own unique variants count as well
+			// ("Walls of Babylon" counts as "Walls"), because Unciv matches the filter against the
+			// base building that a unique replaces.
 			// Unciv checks production bonuses against three separate uniques (units / wonders / regular
-			// buildings) depending on what is being constructed, so wonders need the "wonders" wording.
-			"[100]% Production when constructing [Barracks] buildings [in all cities]",
-			"[100]% Production when constructing [Walls] buildings [in all cities]",
-			"[100]% Production when constructing [Castle] buildings [in all cities]",
-			"[100]% Production when constructing [Armory] buildings [in all cities]",
-			"[100]% Production when constructing [Arsenal] buildings [in all cities]",
-			"[100]% Production when constructing [Military Academy] buildings [in all cities]",
-			"[100]% Production when constructing [Military Base] buildings [in all cities]",
-			"[100]% Production when constructing [Bomb Shelter] buildings [in all cities]",
-			"[100]% Production when constructing [Temple of Artemis] wonders [in all cities]",
-			"[100]% Production when constructing [Statue of Zeus] wonders [in all cities]",
-			"[100]% Production when constructing [Great Wall] wonders [in all cities]",
-			"[100]% Production when constructing [Heroic Epic] wonders [in all cities]",
-			"[100]% Production when constructing [Alhambra] wonders [in all cities]",
-			"[100]% Production when constructing [Himeji Castle] wonders [in all cities]",
-			"[100]% Production when constructing [Kremlin] wonders [in all cities]",
-			"[100]% Production when constructing [Brandenburg Gate] wonders [in all cities]",
-			"[100]% Production when constructing [Neuschwanstein] wonders [in all cities]",
-			"[100]% Production when constructing [Pentagon] wonders [in all cities]",
+			// buildings) depending on what is being constructed, so wonders need the "wonders" wording -
+			// national wonders (Heroic Epic, Manhattan Project) count as wonders there too.
+			// The player-facing text is uniqueText, so these technical uniques are hidden from the player.
+			"[100]% Production when constructing [Barracks] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Walls] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Castle] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Armory] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Military Academy] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Bomb Shelter] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Stable] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Recycling Center] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Seaport] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Forge] buildings [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Temple of Artemis] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Statue of Zeus] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Great Wall] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Heroic Epic] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Alhambra] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Himeji Castle] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Kremlin] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Brandenburg Gate] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Neuschwanstein] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Pentagon] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [The Great Lighthouse] wonders [in all cities] <hidden from users>",
+			"[100]% Production when constructing [Manhattan Project] wonders [in all cities] <hidden from users>",
 
 			// Supply is doubled. The game has no supply multiplier, so the three parts of
 			// "base + per city + per population" are each doubled separately, and the base and

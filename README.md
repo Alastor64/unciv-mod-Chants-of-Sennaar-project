@@ -21,5 +21,16 @@ The Warriors start with a bias towards Mountains and have unique buildings, unit
 | Unit | The Chosen | Great Artist | +50% Strength to military units within 2 tiles when defending (instead of starting a Golden Age) |
 | Tile improvement | Stargazing Platform | — | Built on Mountains, Science and Culture that grow with technology |
 
+### Military buildings and wonders
+
+"+100% Production when constructing military buildings and wonders" covers exactly the following
+items (a civilization's own replacement counts as the item it replaces, so the Fortress counts as
+Walls and The Duty of a Warrior counts as the Heroic Epic):
+
+- Buildings: Barracks, Walls, Castle, Armory, Arsenal, Military Academy, Military Base, Bomb Shelter,
+  Stable, Recycling Center, Seaport, Forge
+- Wonders: Temple of Artemis, Statue of Zeus, Great Wall, Heroic Epic, Alhambra, Himeji Castle,
+  Kremlin, Brandenburg Gate, Neuschwanstein, Pentagon, The Great Lighthouse, Manhattan Project
+
 Add the folder to Unciv's `mods` directory (or install it from this repository's URL) and
 enable it as an extension mod when starting a new game.

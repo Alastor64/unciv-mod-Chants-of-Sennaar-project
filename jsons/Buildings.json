@@ -10,9 +10,12 @@
 		"requiredTech": "Masonry",
 		"production": 2,
 		"faith": 2,
+		// What the player reads in the city screen, the tech tree and the civilopedia.
+		// The military cost reduction cannot be a unique of this building - a unit's cost is only read
+		// from the unit itself, so the effect lives on the military unit types (see UnitTypes.json) and
+		// has to be described here by hand, otherwise nothing in the game tells the player about it.
+		"replacementTextForUniques": "Military units cost 50% less Production in this city.\nDestroyed when the city is captured.",
 		"uniques": [
-			// Military units cost 50% less production in cities with a Fortress - the cost reduction
-			// itself lives on the military unit types, see UnitTypes.json.
 			"Destroyed when the city is captured"
 		]
 	},
